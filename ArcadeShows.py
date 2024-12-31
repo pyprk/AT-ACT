@@ -3,15 +3,15 @@ import csv
 from datetime import datetime
 
 # Airtable settings
-airtable_base_id = "appFH3VMECZzDtfnH"  # Your Base ID
-airtable_table_id = "tbltgmJmY000JOgRu"  # Your Table ID
-airtable_pat = "patSP3cIY9A6rbBQF.c9d7bc5b35ea3e92dabe39f0399cee87a4d174f7266a934569ca5e63fcaae9dc"  # Airtable PAT
+airtable_base_id = "##"  # Your Base ID
+airtable_table_id = "##"  # Your Table ID
+airtable_pat = "##"  # Airtable PAT
 airtable_url = f"https://api.airtable.com/v0/{airtable_base_id}/{airtable_table_id}"
 
 # WordPress settings
-wordpress_url = "https://www.arcadecomedytheater.com"
-wordpress_user = "rkemick"
-wordpress_app_password = "Kqsr hAp7 8Hmq DDQ3 GaKg ak16"  # Application password
+wordpress_url = "##"
+wordpress_user = "##"
+wordpress_app_password = "##"  # Application password
 wordpress_event_endpoint = f"{wordpress_url}/wp-json/tribe/events/v1/events"
 
 # Fetch events from Airtable with filtering
